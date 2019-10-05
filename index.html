@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Minha página</title>
-    </head>
 
-    <body>
-        <nav>
+<head>
+    <meta charset="utf-8">
+    <title>Minha página</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav>
         <p>Minha primeira página</p>
         <ul>
-            <li>SERVIÇOS</li>
-            <li>CLIENTES</li>
-            <li>PARCEIROS</li>
-            <li>TIME</li>
-            <li>CONTATOS</li>
+            <li><a href="#serviços">SERVIÇOS </a></li>
+            <li><a href="#clientes">CLIENTES</a></li>
+            <li><a href="#parceiros">PARCEIROS</a></li>
+            <li><a href="#time">TIME</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
         </ul>
-  
-        </nav>
+
+    </nav>
     <header>
         <h1>Minha página</h1>
         <p>Oferecemos o desenvolvimento dos melhores sites e apps para sua empresas</p>
@@ -25,15 +27,67 @@
     <section id="serviços">
         <h2>SERVIÇOS</h2>
         <p>Oferecemos os melhores serviços de
-             desenvolvimentos de sites e apllicativos
+            desenvolvimentos de sites e apllicativos
         </p>
-        <img src="img/site.jpeg" width="300px">
+        <div>
+            <img src="img/app.jpeg" width="300px">
+        </div>
+        <div>
+            <img src="img/site.jpeg" width="300px">
+        </div>
     </section>
 
-    <section>
+    <section id="clientes">
         <h2>CLIENTES</h2>
         <p>Nossos clientes ficaram muito satisfeitos com nossos serviços</p>
+        <div>
+            <img src="img/cliente1.jpeg" width="300px">
+        </div>
+        <div>
+            <img src="img/cliente2.jpeg" width="300px">
+        </div>
     </section>
+    <section id="parceiros">
+        <h2>PARCEIROS</h2>
+        <P>Nossos parceiros nos ajudam a entregar as melhores soluções
+            parra nossos clientes
+        </P>
+        <div>
+            <a href="https://www.academiapme.com.br/" target="_blank">
+                <img src="img/academiapme.png" width="130px">
+            </a>
+
+        </div>
+        <div>
+            <a href="https://web.digitalinnovation.one" target="_blank">
+                <img src="img/innovationOne.png" width="130px">
+            </a>
+        </div>
+    </section>
+    <section id="time">
+        <h2>TEME</h2>
+        <p> Nosso time trabalha com muita qualidade
+            para entregar o melhor produto para nossos clientes</p>
+        <div>
+            <img src="img/team.jpeg" width="300px">
+        </div>
+        <div>
+            <img src="img/team2.jpeg" width="300px">
+        </div>
+    </section>
+    <section id="contatos">
+        <h2>CONTATOS</h2>
+        <p>Entre em contato com nossa equipe</p>
+        <div>
+            <img src="img/email.png" width="30px">
+            <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+        </div>
+        <div>
+            <img src="img/fone.png" width="30px">
+            <p><a href="tel:99999999">(99)9999-9999</a></p>
+        </div>
+    </section>
+
 
     <footer>
         <p>Desenvolvido por Jacó M</p>
